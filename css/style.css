@@ -1,0 +1,183 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: solid black 1px; */
+  color: white;
+}
+
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+  position: fixed;
+  width: 75%;
+  height: 100%;
+  /* background-color: #4C0033; */
+  background-color: #980F5A;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.left-section{
+  flex: 1;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* position: relative; */
+  padding: 20px;
+  flex: 1;
+}
+
+h1{
+  font-size: 3rem;
+  margin: 60px 0 40px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h1 a{
+    text-decoration: none;
+
+}
+
+h2{
+  line-height: 2;
+}
+
+.arrow {
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  /* opacity: 0.5; */
+  width: 50px;
+  color: black;
+  /* position: absolute; */
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.left-arrow {
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+
+.right-arrow {
+  order: 1;
+  color: white;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+}
+
+.slide {
+  height: 50px;
+  margin: 10px;
+}
+
+#slider {
+  width: 90%;
+  /* color: red; */
+
+}
+
+.input-field {
+  width: 200px;
+  display: inline-block;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input::placeholder {
+    font: 1rem 'Montserrat';
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+
+  color: #E80F88;
+  /* color: antiquewhite; */
+}
+
+li:hover {
+  cursor: pointer;
+  color:black;
+  background-color: #AF0171;
+}
+
+ul {
+  /* display: none; */
+  visibility: hidden;
+  overflow: scroll;
+  margin-top: 10px;
+
+}
+
+.show {
+  /* display: block; */
+  visibility: visible;
+}
+
+ul.breeds {
+  max-height: 250px;
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  /* background-color: #E80F88; */
+  background-color: #FFCCB3;
+  position: absolute;
+  width: 100%;
+  
+}
+
+.hide {
+  display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

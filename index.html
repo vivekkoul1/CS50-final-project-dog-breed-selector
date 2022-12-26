@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is where your description goes" />
+    <meta name="keywords" content="one, two, three" />
+
+    <title>Dog breeds</title>
+
+    <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap"
+  rel="stylesheet">
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="left-section">
+        <h1><a href="">Breed Picker</a></h1>
+        <h2>
+          I want to see pictures of
+          <span class="input-field">
+            <input class="search" type="text" placeholder="search a breed" />
+            <ul class="breeds"></ul>
+          </span>
+          breed
+        </h2>
+      </section>
+
+      <div class="carousel">
+        <div class="arrow left-arrow">&#8656;</div>
+        <div class="arrow right-arrow">&#8658;</div>
+        <div class="image">
+          <img
+            src="https://images.dog.ceo/breeds/eskimo/n02109961_18163.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <input type="range" id="slider" max="100" min="0" step="1" value="0" />
+      <p class="sliderText"></p>
+    </div>
+    <div class="background"></div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
+
+
