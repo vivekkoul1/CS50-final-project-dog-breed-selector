@@ -131,6 +131,11 @@ input {
   width: 100%;
   color: black;
   font-family: 'Montserrat', sans-serif;
+  font-size:1.2rem;
+  height: 40px;
+  font-weight: bold;
+  padding-left:10px;
+  color:#E80F88;
 }
 
 input::placeholder {
@@ -139,7 +144,7 @@ input::placeholder {
 
 li {
   list-style: none;
-  font-size: 14px;
+  font-size: 1rem;
 
   color: #E80F88;
   /* color: antiquewhite; */
@@ -147,7 +152,7 @@ li {
 
 li:hover {
   cursor: pointer;
-  color:black;
+  color: #FFCCB3;
   background-color: #AF0171;
 }
 
